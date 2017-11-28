@@ -12,7 +12,7 @@ import static sun.misc.Version.print;
  * Created by wenzailong on 2017/8/14.
  */
 public class ObjectTest {
-    @Test
+  /*  @Test
   public  void test1(){
         String b=null;
         String a=new String();
@@ -21,39 +21,39 @@ public class ObjectTest {
     }
     @Test
     public void intTest(){
-      /*可以处理任何长度的整数*/
+      *//*可以处理任何长度的整数*//*
         BigInteger bigInteger1=new BigInteger("123456789012345689123413241234109999321413253426256123333333333333333333333333");
       System.out.println(bigInteger1);
-      /*可以处理任何精度的小数*/
-        BigDecimal bigDecimal=new BigDecimal("1.23456789012345689123413241234109999321413253426256123333333333333333333333333");
+      *//*可以处理任何精度的小数*//*
+        BigDecimal bigDecimal=new BigDecimal("Demo1.23456789012345689123413241234109999321413253426256123333333333333333333333333");
         System.out.println(bigDecimal);
     }
     @Test
     public void equalTest(){
         Task t1=new Task();
         Task t2=new Task();
-        t1.level=1;
-        t2.level=2;
-        System.out.println("1:t1.level:"+t1.level+",t2.level:"+t2.level);
+        t1.level=test1;
+        t2.level=test2;
+        System.out.println("Demo1:t1.level:"+t1.level+",t2.level:"+t2.level);
         t1=t2;//对象的内存地址都指向同一个了
-        System.out.println("2:t1.level:"+t1.level+",t2.level:"+t2.level);
+        System.out.println("Demo2:t1.level:"+t1.level+",t2.level:"+t2.level);
         t1.level=27;
         System.out.println("3:t1.level:"+t1.level+",t2.level:"+t2.level);
     }
     @Test
     public void  arithmeticTest(){
-        int a=2;
-        int b=1;
+        int a=test2;
+        int b=test1;
         a=-b;
         System.out.println(a);
         System.out.println(b);
 
         int c=5;
         int d=11;
-        c=--d;//c=d-1;
+        c=--d;//c=d-Demo1;
         System.out.println(c);
         System.out.println(d);
-        c=d--;//c=d  d=d-1;
+        c=d--;//c=d  d=d-Demo1;
         System.out.println(c);
         System.out.println(d);
         c+=d;//c=c+d
@@ -81,7 +81,7 @@ public class ObjectTest {
         return true;
     }
 
-
+*/
 }
 class Task{
     int level;

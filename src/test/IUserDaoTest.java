@@ -31,7 +31,7 @@ public class IUserDaoTest {
 
     @Test
     public void testSelectUser() throws Exception {
-        String id = "1";
+        String id = "Demo1";
         try{
             User user = userService.selectUser(id);
             logger.info("---------------------success-----"+user.getName());
@@ -57,4 +57,15 @@ public class IUserDaoTest {
         }
     }
 
+    @Test
+    public void test1(){
+        User user1=new User();
+        User user2=new User();
+        try{
+            user2.setName(user1.getName());
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+
+    }
 }

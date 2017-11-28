@@ -1,13 +1,7 @@
-import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.slf4j.LoggerFactory;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 /**
  * Created by wenzailong on 2017/7/17.
@@ -17,7 +11,7 @@ import java.util.Map;
 public class BaseTest {
     /*创建日志对象*/
     private org.slf4j.Logger logger = LoggerFactory.getLogger(BaseTest.class);
-    @Test
+  /*  @Test
     public void testDeng(){
         int a=11;
         int b=11;
@@ -33,15 +27,15 @@ public class BaseTest {
         }else{
             logger.info("-----------------------------------------false");
         }
-        Integer e=new Integer(1);
-        Integer f=new Integer(1);
+        Integer e=new Integer(Demo1);
+        Integer f=new Integer(Demo1);
         if(e==f){
             logger.info("-----------------------------------------true");
         }else{
             logger.info("-----------------------------------------false");
         }
-        Integer i = 1;
-        int ii = 1;
+        Integer i = Demo1;
+        int ii = Demo1;
         if(i==ii){
             logger.info("-----------------------------------------true");
         }else{
@@ -62,8 +56,8 @@ public class BaseTest {
     @Test
     public void mapTest(){
         Map map=new HashMap();
-        map.put("1","1");
-        map.put("2","2");
+        map.put("1","Demo1");
+        map.put("2","Demo2");
         map.put("3","3");
         map.put("4","4");
         try{
@@ -78,7 +72,7 @@ public class BaseTest {
 
     }
     @Test
-    public void test1(){
+    public void Demo1(){
         A a=new A();
         int b=a.getA();
         logger.info(b+"");
@@ -88,10 +82,10 @@ public class BaseTest {
     public void listTest(){
         List list=new ArrayList();
         A a1=new A();
-        a1.setA(1);
+        a1.setA(Demo1);
         list.add(a1);
         A a2=new A();
-        a2.setA(2);
+        a2.setA(Demo2);
         list.add(a2);
         A a3=new A();
         a3.setA(3);
@@ -103,18 +97,18 @@ public class BaseTest {
         A a5=new A();
         a5.setA(5);
 
-        list.set(2,a5);
-        logger.info(list.get(2).toString());
+        list.set(Demo2,a5);
+        logger.info(list.get(Demo2).toString());
     }
     @Test
     public void listTest2(){
         List list=new ArrayList();
         A a1=new A();
-        a1.setA(1);
+        a1.setA(Demo1);
         A a2=new A();
-        a2.setA(2);
+        a2.setA(Demo2);
         list.add(0,a1);
-        list.add(1,a2);
+        list.add(Demo1,a2);
         logger.info(list.toString());
     }
     @Test
@@ -149,9 +143,9 @@ public class BaseTest {
         }
     }
 
-}
+}*/
 
-class A{
+/*class A{
     private int a;
     private int b;
 
@@ -172,5 +166,5 @@ class A{
 
     public void setB(int b) {
         this.b = b;
-    }
+    }*/
 }

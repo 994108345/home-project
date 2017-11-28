@@ -34,9 +34,6 @@ public class ThreadTest {
         }
         System.out.println("Main thred exiting.");
     }
-
-
-
 }
 
 class ThreadDemo{
@@ -118,6 +115,7 @@ class NewMoreThread implements Runnable{
         System.out.println(name + "exiting.");
     }
 }
+
 class JoinDemo{
     public static void main(String[] args){
         NewMoreThread ob1 =new NewMoreThread("One");
@@ -306,7 +304,6 @@ class PC{
         System.out.println("Press Control -c to stop.");
     }
 }
-
 /*人为控制线程间通信*/
 class CommunicationThread implements  Runnable{
     String name;
@@ -375,31 +372,30 @@ class SuspendResume{
     }
 }
 
+/*volatile测试*/
+ class TestVolatile {
+    public volatile int inc = 0;
 
-/*自己写一个volatitle的例子*/
-class VaolatitleThread implements Runnable {
-    String threadName;
-    Thread t;
-     volatile int i = 0;
-    VaolatitleThread(String name){
-        this.threadName = name;
-        t = new Thread(this,name);
-        t.start();
+    public void increase() {
+        inc++;
+        System.out.println(inc);
     }
-    @Override
-    public void run() {
-        while(true) {
-            i++;
-            System.out.println(t.getName() + ":" + i);
+
+    public static void main(String[] args) {
+        final TestVolatile test = new TestVolatile();
+        for(int i=0;i<10;i++){
+            new Thread(){
+                public void run() {
+                    for(int j=0;j<1000;j++)
+                        test.increase();
+                    System.out.println(test.inc);
+                };
+            }.start();
         }
+
+        while(Thread.activeCount()>1)  //保证前面的线程都执行完
+            Thread.yield();
+        System.out.println(test.inc);
     }
 }
 
-class mainVaolatitle{
-    public static void main(String[] args){
-        VaolatitleThread vaolatitleThread=new VaolatitleThread("one");
-        VaolatitleThread vaolatitleThread1=new VaolatitleThread("two");
-        System.out.println(vaolatitleThread.t.getName());
-        System.out.println(vaolatitleThread1.t.getName());
-    }
-}
