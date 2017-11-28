@@ -1,111 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89c1cf45-2417-4a2d-9373-0830f3ae2261" name="Default" comment="用反射获取">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/reflection/GetClassMethod.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/ssm/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/A.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/IRoleJurisdictionTest$A.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/PageBeanServiceTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/operator/OperatorTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/polymorphism/Circle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/polymorphism/Line.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/polymorphism/Shape.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/polymorphism/Triangle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/thread/VaolatitleThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/thread/mainVaolatitle.class" afterPath="" />
+    <list default="true" id="89c1cf45-2417-4a2d-9373-0830f3ae2261" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/base/ValueTransference.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/controller/BaseController.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/controller/BaseController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/controller/HomeController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/controller/RoleJurisdictionController.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/controller/RoleJurisdictionController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/controller/SendRedirectController.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/controller/SendRedirectController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/controller/UserInfoController.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/controller/UserInfoController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IJurisdictionDao.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IJurisdictionDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IPageBeanDao.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IPageBeanDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IRoleDao.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IRoleDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IRoleJurisdictionDao.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IRoleJurisdictionDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IUserDao.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IUserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IUserRoleDao.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IUserRoleDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/entity/Jurisdiction.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/entity/Jurisdiction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/entity/PageBean.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/entity/PageBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/entity/PageBeanAllEntity.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/entity/PageBeanAllEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/entity/Role.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/entity/Role.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/entity/RoleJurisdiction.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/entity/RoleJurisdiction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/entity/User.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/entity/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/entity/UserRole.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/entity/UserRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/service/IPageBeanService.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/service/IPageBeanService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/service/IRoleJurisdictionService.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/service/IRoleJurisdictionService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/service/IUserService.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/service/IUserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/service/impl/PageBeanServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/service/impl/PageBeanServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/service/impl/RoleJurisdictionServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/service/impl/RoleJurisdictionServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mb/wzl/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/mb/wzl/service/impl/UserServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm.war" afterPath="$PROJECT_DIR$/target/ssm.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/BaseController.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/BaseController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/HomeController.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/HomeController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/RoleJurisdictionController.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/RoleJurisdictionController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/SendRedirectController.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/SendRedirectController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/UserController.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/UserInfoController.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/UserInfoController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IJurisdictionDao.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IJurisdictionDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IPageBeanDao.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IPageBeanDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IRoleDao.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IRoleDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IRoleJurisdictionDao.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IRoleJurisdictionDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IUserDao.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IUserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IUserRoleDao.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IUserRoleDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/Jurisdiction.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/Jurisdiction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/PageBean.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/PageBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/PageBeanAllEntity.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/PageBeanAllEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/Role.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/Role.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/RoleJurisdiction.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/RoleJurisdiction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/User.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/UserRole.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/UserRole.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/IPageBeanService.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/IPageBeanService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/IRoleJurisdictionService.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/IRoleJurisdictionService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/IUserService.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/IUserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/impl/PageBeanServiceImpl.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/impl/PageBeanServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/impl/RoleJurisdictionServiceImpl.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/impl/RoleJurisdictionServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/IRoleJurisdictionTest.class" afterPath="$PROJECT_DIR$/target/test-classes/IRoleJurisdictionTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/IUserDaoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/IUserDaoTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/PageBeanServiceTest.class" afterPath="$PROJECT_DIR$/target/test-classes/PageBeanServiceTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/arr/A.class" afterPath="$PROJECT_DIR$/target/test-classes/arr/A.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/arr/ArrDemo.class" afterPath="$PROJECT_DIR$/target/test-classes/arr/ArrDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/arr/arrDemo1.class" afterPath="$PROJECT_DIR$/target/test-classes/arr/arrDemo1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/createObject/ObjectTest.class" afterPath="$PROJECT_DIR$/target/test-classes/createObject/ObjectTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/createObject/Task.class" afterPath="$PROJECT_DIR$/target/test-classes/createObject/Task.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/enumx/Call_statusEnum.class" afterPath="$PROJECT_DIR$/target/test-classes/enumx/Call_statusEnum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/enumx/Consumer.class" afterPath="$PROJECT_DIR$/target/test-classes/enumx/Consumer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/enumx/PC.class" afterPath="$PROJECT_DIR$/target/test-classes/enumx/PC.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/enumx/Producer.class" afterPath="$PROJECT_DIR$/target/test-classes/enumx/Producer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/enumx/Q.class" afterPath="$PROJECT_DIR$/target/test-classes/enumx/Q.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/polymorphism/PolyMorPhismTest.class" afterPath="$PROJECT_DIR$/target/test-classes/polymorphism/PolyMorPhismTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/CallMe.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/CallMe.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/Caller.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/Caller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/Clicker.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/Clicker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/CommunicationThread.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/CommunicationThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/Consumer.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/Consumer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/HiLoPri.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/HiLoPri.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/JoinDemo.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/JoinDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/NewMoreThread.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/NewMoreThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/NewThread.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/NewThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/NewThreads.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/NewThreads.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/PC.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/PC.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/Producer.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/Producer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/Q.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/Q.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/SuspendResume.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/SuspendResume.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/Synch.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/Synch.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/ThreadDemo.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/ThreadDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/thread/ThreadTest.class" afterPath="$PROJECT_DIR$/target/test-classes/thread/ThreadTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/arraytest/ArraySplitList.java" afterPath="$PROJECT_DIR$/src/test/arraytest/ArraySplitList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/readjdk/string/StringFile.java" afterPath="$PROJECT_DIR$/src/test/readjdk/string/StringFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/reflection/GetClassMethod.java" afterPath="$PROJECT_DIR$/src/test/reflection/GetClassMethod.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wssm.iml" afterPath="$PROJECT_DIR$/wssm.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -134,14 +58,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PageBeanServiceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/PageBeanServiceTest.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="783">
+              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1134">
+              <caret line="42" column="51" lean-forward="false" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,60 +81,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="205" column="8" lean-forward="false" selection-start-line="205" selection-start-column="8" selection-end-line="205" selection-end-column="8" />
-              <folding>
-                <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/readjdk/string/StringFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InteriorClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/interiorclass/InteriorClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="48" column="10" lean-forward="false" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InetAddressTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/net/InetAddressTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OperatorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/operator/OperatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1792">
-              <caret line="148" column="54" lean-forward="false" selection-start-line="148" selection-start-column="54" selection-end-line="148" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegularExpressionTest1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/regularexpression/RegularExpressionTest1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="-648">
+              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -211,36 +91,11 @@
       <file leaf-file-name="GetClassMethod.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/reflection/GetClassMethod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+            <state relative-caret-position="324">
+              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Field.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/lang/reflect/Field.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="165" column="39" lean-forward="false" selection-start-line="164" selection-start-column="7" selection-end-line="165" selection-end-column="39" />
-              <folding>
-                <element signature="e#5292#5293#0" expanded="true" />
-                <element signature="e#5324#5325#0" expanded="true" />
-                <element signature="e#6371#6372#0" expanded="true" />
-                <element signature="e#6398#6399#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="120" column="6" lean-forward="false" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="6" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -284,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/mb/wzl/dao/IPageBean.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/PageBeanMapper.xml.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mb/wzl/entity/PageBeanAllEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mb/wzl/service/IPageBeanService.java" />
@@ -331,9 +185,10 @@
         <option value="$PROJECT_DIR$/src/test/PageBeanServiceTest.java" />
         <option value="$PROJECT_DIR$/src/test/enumx/Call_statusEnum.java" />
         <option value="$PROJECT_DIR$/src/test/thread/ThreadTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/readjdk/string/StringFile.java" />
         <option value="$PROJECT_DIR$/src/test/arraytest/ArraySplitList.java" />
+        <option value="$PROJECT_DIR$/src/test/base/ValueTransference.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/reflection/GetClassMethod.java" />
       </list>
     </option>
@@ -366,6 +221,7 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
+    <option name="showIgnored" value="false" />
     <treeState>
       <PATH>
         <PATH_ELEMENT>
@@ -394,10 +250,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -446,6 +302,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -454,7 +311,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home-project" />
+              <option name="myItemId" value="ssm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -464,7 +321,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home-project" />
+              <option name="myItemId" value="ssm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -482,7 +339,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home-project" />
+              <option name="myItemId" value="ssm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -504,23 +361,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home-project" />
+              <option name="myItemId" value="ssm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -545,6 +431,331 @@
       <recent name="G:\code\wssm\src\main\webapp" />
       <recent name="G:\code\wssm\src\main\webapp\WEB-INF" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/compiler.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/pom.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/BaseTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/IRoleJurisdictionTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/IUserDaoTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/PageBeanServiceTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/createObject/ObjectTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/thread/ThreadTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/controller/BaseController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/controller/HomeController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/controller/RoleJurisdictionController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/controller/SendRedirectController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/controller/UserController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/controller/UserInfoController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IJurisdictionDao.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IPageBeanDao.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IRoleDao.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IRoleJurisdictionDao.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IUserDao.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/dao/IUserRoleDao.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/entity/Jurisdiction.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/entity/PageBean.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/entity/PageBeanAllEntity.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/entity/Role.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/entity/RoleJurisdiction.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/entity/User.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/entity/UserRole.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/service/IPageBeanService.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/service/IRoleJurisdictionService.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/service/IUserService.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/service/impl/PageBeanServiceImpl.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/service/impl/RoleJurisdictionServiceImpl.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/classes/com/mb/wzl/service/impl/UserServiceImpl.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/maven-archiver/pom.properties</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm.war</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/BaseController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/HomeController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/RoleJurisdictionController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/SendRedirectController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/UserController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/controller/UserInfoController.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IJurisdictionDao.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IPageBeanDao.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IRoleDao.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IRoleJurisdictionDao.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IUserDao.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/dao/IUserRoleDao.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/Jurisdiction.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/PageBean.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/PageBeanAllEntity.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/Role.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/RoleJurisdiction.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/User.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/entity/UserRole.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/IPageBeanService.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/IRoleJurisdictionService.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/IUserService.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/impl/PageBeanServiceImpl.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/impl/RoleJurisdictionServiceImpl.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/WEB-INF/classes/com/mb/wzl/service/impl/UserServiceImpl.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/BaseTest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/IRoleJurisdictionTest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/IUserDaoTest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/PageBeanServiceTest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/arr/A.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/arr/ArrDemo.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/arr/arrDemo1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/createObject/ObjectTest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/createObject/Task.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/enumx/Call_statusEnum.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/enumx/Consumer.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/enumx/PC.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/enumx/Producer.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/enumx/Q.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/operator/OperatorTest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/polymorphism/Circle.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/polymorphism/Line.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/polymorphism/PolyMorPhismTest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/polymorphism/Shape.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/polymorphism/Triangle.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/CallMe.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/Caller.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/Clicker.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/CommunicationThread.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/Consumer.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/HiLoPri.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/JoinDemo.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/NewMoreThread.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/NewThread.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/NewThreads.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/PC.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/Producer.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/Q.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/SuspendResume.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/Synch.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/ThreadDemo.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/ThreadTest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/wssm.iml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/IO/Demo1.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/IO/FileObject.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/IO/FileTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/arraytest/ArrayGeneric.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/arraytest/ArraySplitList.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/classtest/ClassTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/classtest/MuKe.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/classtest/ReflectProxy.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/constrution/CreateObject.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/constrution/StaticTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/controlProgress/ForeachClass.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/command/base/Command.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/command/demo/garagedoor/GarageDoor.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/command/demo/garagedoor/GarageDoorControl.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/command/demo/garagedoor/GarageDoorOpenCommand.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/command/demo/light/Light.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/command/demo/light/LightOnCommand.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/command/demo/light/NoCommand.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/command/demo/light/SimpleRemoteControl.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/command/test/CommandTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/Demo/StarbuzzCoffee.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/Demo/base/Beverage.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/Demo/base/CondimentDecorator.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/Demo/coffee/DarkRoast.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/Demo/coffee/Decat.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/Demo/coffee/Espresso.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/Demo/coffee/HouseBlend.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/Demo/seasoning/Mocha.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/Demo/seasoning/Soy.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/Demo/seasoning/Whip.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/StarbuzzCoffee.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/base/Beverage.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/base/CondimentDecorator.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/coffee/DarkRoast.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/coffee/Decat.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/coffee/Espresso.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/coffee/HouseBlend.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/seasoning/Mocha.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/seasoning/Soy.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/decorator/seasoning/Whip.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/ChicagoStyleCheesePizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/ChicagoStyleClamPizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/ChicagoStylePepperoniPizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/ChicagoStyleVeggiePizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/ChicagostulePizzaStore.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/NYPizzaIngredientFactory.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/NYSykePizzaStore.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/NyStyleCheesePizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/NyStyleClamPizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/NyStylePepperoniPizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/NyStyleVeggiePizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/PizzaIngredientFactory.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/PizzaTestDriver.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/base/Pizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/base/PizzaStore.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/base/SimplePizzaFactory.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/ingredient/Cheese.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/ingredient/Clams.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/ingredient/Dough.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/ingredient/Pepperoni.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/ingredient/Sauce.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/ingredient/Veggies.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/pizza/CheesePizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/pizza/ClamPizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/pizza/PepperoniPizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/factory/pizza/VeggiePizza.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/observer/CurrentConditionsDisplay.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/observer/DisplayElement.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/observer/ForecastDisplay.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/observer/Observer.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/observer/StatisticsDisplay.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/observer/Subject.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/observer/WeatherData.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/observer/WeatherStation.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/observer/javaobserver/CurrentConditionsDisplay.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/observer/javaobserver/DisplayElement.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/observer/javaobserver/ForecastDisplay.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/observer/javaobserver/Observer.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/observer/javaobserver/StatisticsDisplay.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/observer/javaobserver/Subject.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/observer/javaobserver/WeatherData.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/observer/javaobserver/WeatherStation.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/singleton/Singleton.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/strategy/Duck.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/strategy/DuckBling.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/strategy/HomeDuclk.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/strategy/ModelDuck.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/strategy/MyDemo/Character.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/strategy/MyDemo/Farmer.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/strategy/MyDemo/Knight.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/strategy/MyDemo/Troller.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/strategy/TestMain.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/strategy/api/FlyBehavior.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/strategy/api/QuackBehavior.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/strategy/behavior/FlyNoWay.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/strategy/behavior/FlyRocketPowered.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/strategy/behavior/FlyWithWings.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/designpatterns/strategy/behavior/QuackGaGa.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/interfaces/FactoryImplements.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/interfaces/InterfaceTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/interiorclass/InteriorClass.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/net/InetAddressTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/packages/Demo1/Demo1.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/packages/Demo2/Demo2.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/polymorphism/Bird.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/readjdk/string/StringFile.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/reflection/GetClassMethod.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/regularexpression/RegularExpressionTest1.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/test/utils/StringUtils.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/ssm/META-INF/MANIFEST.MF</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/A.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/IRoleJurisdictionTest$A.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/VaolatitleThread.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/target/test-classes/thread/mainVaolatitle.class</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1087,7 +1298,7 @@
             <option name="environmentProperties">
               <map />
             </option>
-            <option name="jreName" value="1.7" />
+            <option name="jreName" value="1.8" />
             <option name="mavenProperties">
               <map />
             </option>
@@ -1266,18 +1477,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GetClassMethod_reflectionDemo - 2017.11.28 at 14h 40m 02s.xml">
-      <configuration name="GetClassMethod.reflectionDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GetClassMethod_reflectionDemo - 2017.11.28 at 14h 42m 31s.xml">
-      <configuration name="GetClassMethod.reflectionDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GetClassMethod_reflectionDemo - 2017.11.28 at 14h 51m 12s.xml">
-      <configuration name="GetClassMethod.reflectionDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GetClassMethod_reflectionDemo - 2017.11.28 at 14h 51m 45s.xml">
-      <configuration name="GetClassMethod.reflectionDemo" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GetClassMethod_reflectionDemo - 2017.11.28 at 14h 58m 06s.xml">
       <configuration name="GetClassMethod.reflectionDemo" configurationId="JUnit" />
     </history-entry>
@@ -1296,9 +1495,21 @@
     <history-entry file="GetClassMethod_reflectionDemo - 2017.11.28 at 15h 17m 51s.xml">
       <configuration name="GetClassMethod.reflectionDemo" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GetClassMethod_reflectionDemo - 2017.11.28 at 20h 23m 19s.xml">
+      <configuration name="GetClassMethod.reflectionDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetClassMethod_reflectionDemo - 2017.11.28 at 20h 41m 04s.xml">
+      <configuration name="GetClassMethod.reflectionDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetClassMethod_reflectionDemo - 2017.11.28 at 20h 44m 15s.xml">
+      <configuration name="GetClassMethod.reflectionDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetClassMethod_reflectionDemo - 2017.11.28 at 20h 55m 13s.xml">
+      <configuration name="GetClassMethod.reflectionDemo" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242797000" />
+    <option name="totallyTimeSpent" value="245810000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1310,44 +1521,70 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42580646" sideWeight="0.50455236" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08229167" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="1232" y="190" width="376" height="673" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.094791666" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28548387" sideWeight="0.49544764" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34019503" sideWeight="0.49544764" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33387098" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22643554" sideWeight="0.4970458" order="2" side_tool="false" content_ui="tabs" x="-26" y="612" width="1914" height="250" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42580646" sideWeight="0.50455236" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28548387" sideWeight="0.49544764" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21451613" sideWeight="0.4970458" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20196672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20196672" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1571,34 +1808,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mb/wzl/controller/RoleJurisdictionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="91" column="36" lean-forward="false" selection-start-line="91" selection-start-column="36" selection-end-line="91" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PageBeanMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="69" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="69" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/IUserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/userinfo/infomation.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1651,8 +1860,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/user/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="243">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1713,11 +1923,11 @@
         <state relative-caret-position="234">
           <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#566#567#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#758#759#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1788,18 +1998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1386">
           <caret line="87" column="24" lean-forward="false" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
-          <folding>
-            <element signature="e#498#499#0" expanded="false" />
-            <element signature="e#524#525#0" expanded="false" />
-            <element signature="e#554#555#0" expanded="false" />
-            <element signature="e#580#581#0" expanded="false" />
-            <element signature="e#618#619#0" expanded="false" />
-            <element signature="e#648#649#0" expanded="false" />
-            <element signature="e#679#680#0" expanded="false" />
-            <element signature="e#706#707#0" expanded="false" />
-            <element signature="e#746#747#0" expanded="false" />
-            <element signature="e#778#779#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1807,59 +2005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8874">
           <caret line="546" column="11" lean-forward="false" selection-start-line="546" selection-start-column="11" selection-end-line="546" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#78741#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5560#5561#0" expanded="false" />
-            <element signature="e#5601#5602#0" expanded="false" />
-            <element signature="e#6683#6684#0" expanded="false" />
-            <element signature="e#6723#6724#0" expanded="false" />
-            <element signature="e#14796#14797#0" expanded="false" />
-            <element signature="e#14860#14861#0" expanded="false" />
-            <element signature="e#15480#15481#0" expanded="false" />
-            <element signature="e#15546#15547#0" expanded="false" />
-            <element signature="e#15734#15735#0" expanded="false" />
-            <element signature="e#15805#15806#0" expanded="false" />
-            <element signature="e#17015#17016#0" expanded="false" />
-            <element signature="e#17082#17083#0" expanded="false" />
-            <element signature="e#17388#17389#0" expanded="false" />
-            <element signature="e#17429#17430#0" expanded="false" />
-            <element signature="e#18347#18348#0" expanded="false" />
-            <element signature="e#18389#18390#0" expanded="false" />
-            <element signature="e#18901#18902#0" expanded="false" />
-            <element signature="e#18944#18945#0" expanded="false" />
-            <element signature="e#21244#21245#0" expanded="false" />
-            <element signature="e#21288#21289#0" expanded="false" />
-            <element signature="e#33357#33358#0" expanded="false" />
-            <element signature="e#33414#33415#0" expanded="false" />
-            <element signature="e#36478#36479#0" expanded="false" />
-            <element signature="e#36536#36537#0" expanded="false" />
-            <element signature="e#37073#37074#0" expanded="false" />
-            <element signature="e#37116#37117#0" expanded="false" />
-            <element signature="e#38390#38391#0" expanded="false" />
-            <element signature="e#38435#38436#0" expanded="false" />
-            <element signature="e#42725#42726#0" expanded="false" />
-            <element signature="e#42756#42757#0" expanded="false" />
-            <element signature="e#43646#43647#0" expanded="false" />
-            <element signature="e#43691#43692#0" expanded="false" />
-            <element signature="e#43948#43949#0" expanded="false" />
-            <element signature="e#43976#43977#0" expanded="false" />
-            <element signature="e#44834#44835#0" expanded="false" />
-            <element signature="e#44903#44904#0" expanded="false" />
-            <element signature="e#46236#46237#0" expanded="false" />
-            <element signature="e#46309#46310#0" expanded="false" />
-            <element signature="e#50771#50772#0" expanded="false" />
-            <element signature="e#50833#50834#0" expanded="false" />
-            <element signature="e#51927#51928#0" expanded="false" />
-            <element signature="e#51956#51957#0" expanded="false" />
-            <element signature="e#65707#65708#0" expanded="false" />
-            <element signature="e#65733#65734#0" expanded="false" />
-            <element signature="e#75713#75714#0" expanded="false" />
-            <element signature="e#75785#75786#0" expanded="false" />
-            <element signature="e#76971#76972#0" expanded="false" />
-            <element signature="e#77006#77007#0" expanded="false" />
-            <marker date="1466529270000" expanded="true" signature="66969:69384" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1867,10 +2012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="394" column="5" lean-forward="false" selection-start-line="394" selection-start-column="5" selection-end-line="394" selection-end-column="5" />
-          <folding>
-            <element signature="class#ThreadTest#0" expanded="false" />
-            <element signature="method#mainThtread#0;class#ThreadTest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1878,7 +2019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1892,21 +2032,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="205" column="8" lean-forward="false" selection-start-line="205" selection-start-column="8" selection-end-line="205" selection-end-column="8" />
-          <folding>
-            <element signature="n#build#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/readjdk/string/StringFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1914,7 +2043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-105">
           <caret line="48" column="10" lean-forward="false" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1922,7 +2050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1938,7 +2065,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1946,38 +2072,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="91" column="32" lean-forward="false" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/lang/String.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/lang/reflect/Field.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/base/ValueTransference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#476#484#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="120" column="6" lean-forward="false" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="6" />
+        <state relative-caret-position="54">
+          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_17/src.zip!/java/lang/reflect/Field.java">
+    <entry file="uml://MAVEN/com.mb.wzl.ssm:ssm:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.mb.wzl.ssm:ssm:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.mb.wzl.ssm:ssm:1.0-SNAPSHOT</node>
+            <node x="" y="">junit:junit:jar:4.11</node>
+            <node x="" y="">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">ch.qos.logback:logback-classic:jar:1.1.0</node>
+            <node x="" y="">ch.qos.logback:logback-classic:jar:1.1.0/ch.qos.logback:logback-core:jar:1.1.0</node>
+            <node x="" y="">ch.qos.logback:logback-classic:jar:1.1.0/org.slf4j:slf4j-api:jar:1.7.5</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.37</node>
+            <node x="" y="">c3p0:c3p0:jar:0.9.1.2</node>
+            <node x="" y="">org.mybatis:mybatis:jar:3.2.1</node>
+            <node x="" y="">org.mybatis:mybatis-spring:jar:1.2.3</node>
+            <node x="" y="">taglibs:standard:jar:1.1.2</node>
+            <node x="" y="">jstl:jstl:jar:1.2</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.5.0</node>
+            <node x="" y="">javax.servlet:javax.servlet-api:jar:3.1.0</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.1.7.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.1.7.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.springframework:spring-beans:jar:4.1.7.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.1.7.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.1.7.RELEASE/org.springframework:spring-aop:jar:4.1.7.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.1.7.RELEASE/org.springframework:spring-aop:jar:4.1.7.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.1.7.RELEASE/org.springframework:spring-expression:jar:4.1.7.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.1.7.RELEASE</node>
+            <node x="" y="">org.springframework:spring-tx:jar:4.1.7.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:4.1.7.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.1.7.RELEASE</node>
+            <node x="" y="">org.springframework:spring-test:jar:4.1.7.RELEASE</node>
+            <node x="" y="">redis.clients:jedis:jar:2.7.3</node>
+            <node x="" y="">redis.clients:jedis:jar:2.7.3/org.apache.commons:commons-pool2:jar:2.3</node>
+            <node x="" y="">com.dyuproject.protostuff:protostuff-core:jar:1.0.8</node>
+            <node x="" y="">com.dyuproject.protostuff:protostuff-core:jar:1.0.8/com.dyuproject.protostuff:protostuff-api:jar:1.0.8</node>
+            <node x="" y="">com.dyuproject.protostuff:protostuff-runtime:jar:1.0.8</node>
+            <node x="" y="">com.dyuproject.protostuff:protostuff-runtime:jar:1.0.8/com.dyuproject.protostuff:protostuff-collectionschema:jar:1.0.8</node>
+            <node x="" y="">commons-collections:commons-collections:jar:3.2</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.4</node>
+            <node x="" y="">commons-dbcp:commons-dbcp:jar:1.4/commons-pool:commons-pool:jar:1.5.4</node>
+            <node x="" y="">commons-pool:commons-pool:jar:1.6</node>
+            <node x="" y="">javax.servlet:jsp-api:jar:2.0</node>
+            <node x="" y="">javax.servlet:jsp-api:jar:2.0/javax.servlet:servlet-api:jar:2.4</node>
+            <node x="" y="">org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
+            <node x="" y="">org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-core:jar:2.5.0</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-annotations:jar:2.5.0</node>
+            <node x="" y="">com.google.code.gson:gson:jar:2.2.2</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.43394886363636365" x="917.5" y="982.0523731587562" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="165" column="39" lean-forward="false" selection-start-line="164" selection-start-column="7" selection-end-line="165" selection-end-column="39" />
-          <folding>
-            <element signature="e#5292#5293#0" expanded="true" />
-            <element signature="e#5324#5325#0" expanded="true" />
-            <element signature="e#6371#6372#0" expanded="true" />
-            <element signature="e#6398#6399#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-648">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/reflection/GetClassMethod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        <state relative-caret-position="324">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2054,7 +2242,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.33908045" />
+                <option value="0.1954023" />
               </list>
             </option>
           </splitter-proportions>

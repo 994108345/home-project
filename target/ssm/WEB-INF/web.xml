@@ -40,7 +40,7 @@
   </servlet-mapping>
 
   <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
+    <welcome-file>jsp/user/login.jsp</welcome-file>
   </welcome-file-list>
 <!--加入监听器，方便使用request和response-->
   <listener>
